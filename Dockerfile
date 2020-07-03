@@ -12,6 +12,7 @@ RUN apt-get install libopencv-dev -y
 RUN apt-get install cmake -y
 RUN apt-get install make -y
 RUN apt-get install -y mesa-common-dev freeglut3-dev libglew-dev
+
 COPY . /usr/src/
 WORKDIR /usr/src/
 
