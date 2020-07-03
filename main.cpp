@@ -93,7 +93,7 @@ void draw()
         glLightfv(GL_LIGHT0, GL_POSITION, lightPos0);
     
         drawBox(0,3,-5,10,4,10);
-        drawSphere(0.25,3,-1,-4);
+        drawSphere(0.4,3,-0.85,-4);
     
         //Правый верхний край: drawSphere(5,10,-1,-15);
 
